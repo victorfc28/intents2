@@ -17,5 +17,7 @@ public class MainActivity2 extends AppCompatActivity {
         String nom = sacRecuperat.getString("Enombre");
         int edad = sacRecuperat.getInt("Eedad");
         tv.setText("Hola "+ nom+" tienes "+edad+" años.");
+
+
     }
 }
